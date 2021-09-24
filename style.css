@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.container {
+      background: #ecf4ff;
+    color: #1c1c1c;
+    margin: 64px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #0e1d2f;
+    padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+  gap: 20px;
+}
+
+.perfil img {
+  background-color: #1c1c1c;
+  height: 85px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  background: #ecf4ff;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 8px 16px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 2px solid #1c1c1c;
+}
+
+.tema button:hover {
+  background: #1c1c1c;
+  color: #fff;
+  border: 2px solid #f7f7f7;
+}
+
+main {
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 32px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style: none;
+  font-size: 24px;
+  font-weight: 400;
+  transition: all 0.3s;
+}
+
+.projetos li a:link,
+.projetos li a:visited {
+  text-decoration: none;
+  color: #1c1c1c;
+}
+
+.projetos li a:hover,
+.projetos li a:active {
+  color: #e8e8e8;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  color: #f6f6f6;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #fff;
+  border: 2px solid #f7f7f7;
+}
+
+.dark .tema button:hover {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  border: 2px solid #1c1c1c;
+}
